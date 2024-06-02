@@ -10,7 +10,7 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
-      <div className="grid grid-cols-3 h-[100vh] w-full gap-[20px] items-center">
+      <div className="grid grid-cols-3 h-[100vh] w-full gap-[20px]">
         <div className="w-full">
           <div>To execute</div>
           <div className="w-full">
