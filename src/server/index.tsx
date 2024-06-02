@@ -11,7 +11,17 @@ export function createRandomItodo(): Itodo {
   };
 }
 
-export const TODOexecute: Itodo[] = Array.from({ length: 5 }, (_, i) => ({
+export const TODOexecute: Itodo[] = Array.from({ length: 12 }, (_, i) => ({
+  order: i + 1,
+  description: faker.lorem.sentence(),
+}));
+
+export const TODOinProccess: Itodo[] = Array.from({ length: 12 }, (_, i) => ({
+  order: i + 1,
+  description: faker.lorem.sentence(),
+}))
+
+export const TODOsuccess: Itodo[] = Array.from({ length: 12 }, (_, i) => ({
   order: i + 1,
   description: faker.lorem.sentence(),
 }));
